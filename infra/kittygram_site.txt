@@ -1,0 +1,5 @@
+IP: 89.169.175.171 ;
+name_taski: https://blackcloudishere.ddns.net/ ; 
+name_kittygram: https://kittygram-vismar.ddns.net/ ;
+login: vismar ;
+password: whatislove251 ;
