@@ -1,7 +1,5 @@
 import os
 from pathlib import Path
-import sentry_sdk
-from sentry_sdk.integrations.django import DjangoIntegration
 from dotenv import load_dotenv
 
 
@@ -117,14 +115,4 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
 
 }
-
-sentry_sdk.init(
-    dsn="https://15a2fbbdf72e44ae3925776ca2b55e3a@o4507948893339648.ingest.de.sentry.io/4507949030965328",
-    integrations=[
-        DjangoIntegration(),
-    ],
-    traces_sample_rate=1.0,
-    send_default_pii=True
-)
-
 
